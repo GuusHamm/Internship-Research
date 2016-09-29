@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper,draft]{scrreprt}
+\usepackage[latin1,utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{makeidx}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{times}
+\author{Guus Hamm}
+\title{Onderzoeksrapport}
+\makeindex
+\begin{document}
+	\maketitle
+	
+	\newpage
+	
+	\include{before/samenvatting}
+	\include{before/inleiding}
+	\tableofcontents
+	\include{after/onderzoeksvragen}
+	\include{after/onderzoeksaanpak}
+	\include{after/huidigappsemble}
+	\include{after/concurrentie}
+	\include{after/toekomst}
+	\include{after/conclusie}
+	
+	\appendix
+	\include{after/bibliography}
+\end{document}
